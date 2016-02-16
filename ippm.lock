@@ -1,0 +1,21 @@
+{
+	"packages": {
+		"": {
+			"dependencies": {
+				"js-utils": "2.0.0-beta2"
+			}
+		},
+		"js-utils@2.0.0-beta2": {
+			"main": "./index.js",
+			"ipfs": "asdf123456789",
+			"dependencies": {
+				"babel-runtime": "6.5.0"
+			}
+		},
+		"babel-runtime@6.5.0": {
+			"main": "./index.js",
+			"ipfs": "asdf123456789",
+			"dependencies": {}
+		}
+	}
+}

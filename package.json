@@ -1,0 +1,7 @@
+{
+	"ippm": {
+		"dependencies": {
+			"js-utils": "^2.0.0"
+		}
+	}
+}
