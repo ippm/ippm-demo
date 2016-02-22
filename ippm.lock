@@ -7,14 +7,20 @@
 		},
 		"js-utils@2.0.0-beta2": {
 			"main": "./index.js",
-			"ipfs": "asdf123456789",
+			"ipfs": "Qmb1jtazARSYw4YKCKLwKCoXKZHtsvBMDYUgGspStJCrib",
 			"dependencies": {
 				"babel-runtime": "6.5.0"
 			}
 		},
 		"babel-runtime@6.5.0": {
 			"main": "./index.js",
-			"ipfs": "asdf123456789",
+			"ipfs": "QmPLZpVKzsYGra1d9bjT7BwtYS8UVxdfkyFR3UEsoc4Ywp",
+			"dependencies": {
+				"core-js": "1.2.6"
+			}
+		},
+		"core-js@1.2.6": {
+			"ipfs": "QmVxJNiBkJstX6pd5qjzYX2TQoEp2fafMPqmZVvJJW4559",
 			"dependencies": {}
 		}
 	}

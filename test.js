@@ -1,4 +1,10 @@
-require('./index');
-require('./dir/test2');
+require('../ippm-node/build/index').patch();
+const c = require('js-utils');
 
-console.log('lul - test.js');
+const add = c.toAsync((a, b, cb) => {
+	cb(null, a + b);
+});
+
+add(40, 2).then(a => {
+	console.log(a);
+});
