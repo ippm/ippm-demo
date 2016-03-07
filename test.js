@@ -1,4 +1,4 @@
-require('../ippm-node/build/index').patch();
+require('ippm-node').patch();
 const c = require('js-utils');
 
 const add = c.toAsync((a, b, cb) => {
