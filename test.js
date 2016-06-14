@@ -1,5 +1,11 @@
-require('ippm-node').patch();
+var System = require('ippm-systemjs').default;
 
-console.log('start');
-
-require('./test2');
+System.init()
+	.then(() => System.import('./test2'))
+	.then(m => {
+		console.log("test2.js: " + m);
+	})
+	.catch(e => {
+		console.log(System);
+		console.error(e);
+	});

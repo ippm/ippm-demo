@@ -2,25 +2,31 @@
 	"packages": {
 		"": {
 			"dependencies": {
-				"js-utils": "2.0.0-beta2"
+				"js-utils": "2.0.0"
 			}
 		},
-		"js-utils@2.0.0-beta2": {
-			"main": "./index.js",
-			"ipfs": "Qmb1jtazARSYw4YKCKLwKCoXKZHtsvBMDYUgGspStJCrib",
+		"js-utils@2.0.0": {
+			"main": "js-utils.js",
+			"ipfs": "Qmcp3SkVQXRsZC4AL5QmXUPuVz7ZE4gYLsgy6UnVBrxpv8",
 			"dependencies": {
-				"babel-runtime": "6.5.0"
+				"babel-runtime": "6.9.2"
 			}
 		},
-		"babel-runtime@6.5.0": {
-			"main": "./index.js",
-			"ipfs": "QmPLZpVKzsYGra1d9bjT7BwtYS8UVxdfkyFR3UEsoc4Ywp",
+		"babel-runtime@6.9.2": {
+			"main": "index.js",
+			"ipfs": "QmW1XX1i3WRKdusPVY4z1hnMPThBukBfe9Tu6zFn624CtH",
 			"dependencies": {
-				"core-js": "1.2.6"
+				"core-js": "2.4.0",
+				"regenerator-runtime": "0.9.5"
 			}
 		},
-		"core-js@1.2.6": {
-			"ipfs": "QmVxJNiBkJstX6pd5qjzYX2TQoEp2fafMPqmZVvJJW4559",
+		"core-js@2.4.0": {
+			"ipfs": "QmTEoyE4Er8QCqsxb8bKTFoZP7vmCB5iABvcbZiBDjBkub",
+			"dependencies": {}
+		},
+		"regenerator-runtime@0.9.5": {
+			"main": "runtime-module.js",
+			"ipfs": "QmWq46HniJMzFy8RtzoZgTrwKyTXktoPKvnvdJcJz1L67E",
 			"dependencies": {}
 		}
 	}
