@@ -1,4 +1,5 @@
-const c = require('js-utils/js-utils.js');
+// require('testa/index.js');
+const c = require('js-utils');
 
 const add = c.toAsync((a, b, cb) => {
 	cb(null, a + b);
